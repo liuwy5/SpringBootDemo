@@ -45,8 +45,6 @@ public class MyInterceptor implements HandlerInterceptor {
         }
         httpServletRequest.setAttribute("user", "fsdfddfdfd");
 
-        map.put("user",new String[]{"dsfads"});
-        System.out.println(map);
         return true;
     }
 
